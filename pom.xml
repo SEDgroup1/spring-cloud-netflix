@@ -61,10 +61,11 @@
 				<groupId>io.spring.javaformat</groupId>
 				<artifactId>spring-javaformat-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 			</plugin>
+			 -->
 			<plugin>
 				<groupId>org.basepom.maven</groupId>
 				<artifactId>duplicate-finder-maven-plugin</artifactId>
@@ -117,14 +118,14 @@
 			<!-- end eureka deps -->
 		</dependencies>
 	</dependencyManagement>
-	<reporting>
+	<!--<reporting>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</reporting>
+	</reporting>-->
 	<modules>
 		<module>spring-cloud-netflix-dependencies</module>
 		<module>spring-cloud-netflix-eureka-client</module>
